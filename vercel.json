@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:symbol",
+      "destination": "/api/[symbol].js"
+    }
+  ]
+}
